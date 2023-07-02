@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(../Images/back.jpg);
+    background-repeat: no-repeat;
+}
+header{
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    padding: 20px 100px;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo{
+    width: 200px;
+}
+.navbar{
+    display: flex;
+    background-attachment: scroll;
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white;
+}
+.navbar a:hover{
+    background-color: rgba(239, 144, 144, 0.497);
+    transition: all ease 0.5s;
+}
+.logotext{
+    display: grid;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.trophy img{
+    width: 100px;
+    margin-left: 30px;
+    
+}
+.logotext{
+    display: flex;
+}
+.para{
+    font-weight: 50;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+    
+}
+.store img{
+    width: 150px;
+}
+.store h6{
+    color: white;
+    left: 1rem;
+}
+.store{
+  
+  margin-left: 100px;
+  margin-top: 5px;
+ 
+    
+}
+.store .c2{
+    display: flex;
+    gap: 1rem;
+}
+.store .c2 a img:hover{
+    background-color: red;
+    transition: all ease 0.5s;
+}
+.newsletter{
+    
+    background-color: black;
+}
+.social{
+    display: flex;
+    padding-left: 10px;
+    margin-left: 100px;
+   
+}
+.social a img{
+    
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    
+}
+.social a img:hover{
+    background-color: grey;
+    transition: all ease 0.5s;
+}
+.copyright{
+    
+    border-style: dashed;
+    color: rgb(185, 184, 184);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+  
+}
+.termH{
+    text-align: center;
+    font-size: 40px;
+    color: goldenrod;
+    margin-top: 30px;
+}
+.termText{
+    list-style-type: square;
+    line-height: 250%;
+    left: 50%;
+    color: white;
+    margin: 60px;
+    margin-left: 500px;
+    
+}
+ul.termText {
+
+    list-style-type: square;
+}
